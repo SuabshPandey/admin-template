@@ -5,7 +5,7 @@
 <header class="flex items-center justify-between bg-white p-4 shadow-md">
 	<div class="flex items-center gap-4">
 		<button class="rounded-md p-2 hover:bg-gray-200">☰</button>
-		<h2 class="text-lg font-semibold">HOME</h2>
+		<h2 class="text-lg font-semibold">SURAJ CHHETRY</h2>
 	</div>
 	<div class="flex items-center gap-6">
 		<span class="text-sm text-gray-700">{user.location}</span>
