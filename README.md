@@ -5,8 +5,8 @@ This is a SvelteKit-based admin template styled with Tailwind CSS. Follow the in
 ## Prerequisites
 
 Ensure you have the following installed before proceeding:
-Node.js (LTS recommended)
-npm
+Node.js (Currently using 20.8.1)
+npm - Node package manager
 
 
 # Installation
@@ -17,6 +17,9 @@ git clone https://github.com/SuabshPandey/admin-template.git
 
 # Navigate into the project directory:
 cd admin-template
+
+npm install
+
 ```
 
 ## Running the Project
