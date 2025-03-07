@@ -1,38 +1,29 @@
-# sv
+# SvelteKit Admin Template
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is a SvelteKit-based admin template styled with Tailwind CSS. Follow the instructions below to set up and run the project on your local machine.
 
-## Creating a project
+## Prerequisites
 
-If you're seeing this, you've probably already done this step. Congrats!
+Ensure you have the following installed before proceeding:
+Node.js (LTS recommended)
+npm
 
-```bash
-# create a new project in the current directory
-npx sv create
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+# Installation
 
 ```bash
-npm run dev
+# Clone the repository:
+git clone https://github.com/SuabshPandey/admin-template.git
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# Navigate into the project directory:
+cd admin-template
 ```
 
-## Building
+## Running the Project
 
-To create a production version of your app:
+SvelteKit uses [Vite](https://vitejs.dev/) as its development server, making it fast and efficient.
+
+To start the development server, run:
 
 ```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+npm run dev 
