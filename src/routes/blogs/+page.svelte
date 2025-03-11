@@ -38,10 +38,10 @@
 </script>
 
 <div class="blog-container max-w-10xl mx-auto p-1">
-	<div class="flex items-center justify-between rounded-md bg-white px-6 py-4 shadow-md">
-		<p class="font-semibold">Blogs > List</p>
+	<div class="flex items-center justify-between font-semibold rounded-md bg-white px-6 py-4 shadow-md">
+		<p class="">Blogs > List</p>
 		<button
-			class="rounded bg-gray-800 px-4 py-2 font-semibold text-white shadow-md transition-all hover:shadow-lg"
+			class="rounded bg-gray-800 px-4 py-2  text-white shadow-md transition-all hover:shadow-lg"
 			on:click={() => goto('/blogs/add')}>Add Blog</button
 		>
 	</div>
