@@ -5,7 +5,8 @@
 		{ icon: '🌐', label: 'Publish', link: '/publish' },
 		{ icon: '📦', label: 'Archive', link: '/archive' },
 		{ icon: '💳', label: 'Category', link: '/category' },
-		{ icon: '🛠', label: 'Settings', link: '/settings' }
+		{ icon: '🛠', label: 'Settings', link: '/settings' },
+		
 	];
 </script>
 
