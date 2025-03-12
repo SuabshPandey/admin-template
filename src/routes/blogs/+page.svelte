@@ -14,7 +14,7 @@
 			id: 2,
 			title: 'Mastering Remote Work',
 			description: 'Learn the best strategies for staying productive while working remotely.',
-			author: 'Jane Smith',
+			author: 'Suraj Chhetry',
 			authorImage: '/images/authors/suraj_pp.jpg',
 			image: '/images/image1.jpg'
 		},
@@ -30,7 +30,7 @@
 			id: 4,
 			title: 'Exploring the Cosmos',
 			description: "A beginner's guide to understanding the vastness of space.",
-			author: 'Mark Brown',
+			author: 'Suraj Chhetry',
 			authorImage: '/images/authors/suraj_pp.jpg',
 			image: '/images/network2.jpg'
 		}
