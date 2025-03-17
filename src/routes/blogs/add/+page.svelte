@@ -16,7 +16,7 @@
 	class="my-2 flex w-full items-center justify-between rounded-md bg-white px-6 py-4 font-semibold shadow-md"
 >
 	<p class="">Blogs > Create</p>
-	<button class="rounded-md bg-gray-800 px-4 py-2 text-white">Back</button>
+	<button on:click={() => {history.back()}} class="rounded-md bg-gray-800 px-4 py-2 text-white cursor-pointer">Back</button>
 </div>
 <form on:submit|preventDefault={handleSubmit}>
 	<div class="max-w-8xl mx-auto my-2 rounded-lg bg-white px-6 py-4 shadow-lg">
