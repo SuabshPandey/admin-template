@@ -1,66 +1,80 @@
 <script>
+	import { goto } from '$app/navigation';
 	let posts = [
 		{
+			id: '1',
 			title: 'Exploring Cryptography Projects with Rust and Discrete Mathematics',
 			date: 'February 11, 2025',
 			tags: ['Cryptography', 'Rust', 'Discrete Mathematics']
 		},
 		{
+			id: '1',
 			title: 'Rust Programming: Balancing OOP and FP Paradigms',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Programming', 'Guide']
 		},
 		{
+			id: '1',
 			title: 'Rust Smart Pointer',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Memory Management', 'Programming']
 		},
 		{
+			id: '1',
 			title: 'Rust Programming: Balancing OOP and FP Paradigms',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Programming', 'Guide']
 		},
 		{
+			id: '1',
 			title: 'Rust Smart Pointer',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Memory Management', 'Programming']
 		},
 		{
+			id: '1',
 			title: 'Rust Programming: Balancing OOP and FP Paradigms',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Programming', 'Guide']
 		},
 		{
+			id: '1',
 			title: 'Rust Smart Pointer',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Memory Management', 'Programming']
 		},
 		{
+			id: '1',
 			title: 'Rust Programming: Balancing OOP and FP Paradigms',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Programming', 'Guide']
 		},
 		{
+			id: '1',
 			title: 'Rust Smart Pointer',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Memory Management', 'Programming']
 		},
 		{
+			id: '1',
 			title: 'Rust Programming: Balancing OOP and FP Paradigms',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Programming', 'Guide']
 		},
 		{
+			id: '1',
 			title: 'Rust Smart Pointer',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Memory Management', 'Programming']
 		},
 		{
+			id: '1',
 			title: 'Rust Programming: Balancing OOP and FP Paradigms',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Programming', 'Guide']
 		},
 		{
+			id: '1',
 			title: 'Rust Smart Pointer',
 			date: 'January 12, 2025',
 			tags: ['Rust', 'Memory Management', 'Programming']
@@ -76,16 +90,16 @@
 	<p class="text-sm text-gray-400">Fintech | Payments | Distributed System | Rust | Java</p>
 </div>
 
-<div class="">
+<div class="mt-3">
 	<div class="">
-		<h1 class="m-4 text-center text-3xl uppercase">Recent Posts</h1>
+		<h1 class="m-4 text-center text-2xl font-semibold uppercase">Recent Posts</h1>
 		<div class="divider mb-2 border"></div>
 	</div>
 	<div
-		class="post_lists max-w-8xl mx-auto max-h-screen overflow-y-scroll px-5 shadow-2xl shadow-blue-100"
+		class="post_lists max-w-8xl mx-auto mt-4 max-h-screen overflow-y-scroll px-1 shadow-blue-100"
 	>
 		{#each posts as post}
-			<div class="border-b border-gray-700 py-4">
+			<div class="cursor-pointer border-gray-700 px-4 py-4 shadow-md">
 				<h1 class="text-lg font-semibold text-blue-950">{post?.title}</h1>
 				<p class="text-sm text-gray-400">{post.date} . {post.tags.join(', ')}</p>
 			</div>

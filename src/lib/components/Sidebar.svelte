@@ -2,10 +2,10 @@
 	export let menuItems = [
 		{ icon: '🏠', label: 'Home', link: '/' },
 		{ icon: '💻', label: 'Blogs', link: '/blogs' },
-		{ icon: '🌐', label: 'Publish', link: '/publish' },
-		{ icon: '📦', label: 'Archive', link: '/archive' },
-		{ icon: '💳', label: 'Category', link: '/category' },
-		{ icon: '🛠', label: 'Settings', link: '/settings' },
+		// { icon: '🌐', label: 'Publish', link: '/publish' },
+		// { icon: '📦', label: 'Archive', link: '/archive' },
+		// { icon: '💳', label: 'Category', link: '/category' },
+		// { icon: '🛠', label: 'Settings', link: '/settings' },
 		
 	];
 </script>
